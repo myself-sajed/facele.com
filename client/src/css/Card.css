@@ -1,0 +1,14 @@
+.card__padding{
+    margin: 0 26rem;
+
+}
+
+.card{
+    padding: 2.5rem;
+    border-radius:10px;
+    background-color: #363535;
+    color: white;
+    height: 23rem;
+}
+
+

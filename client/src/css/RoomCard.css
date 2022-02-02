@@ -1,0 +1,56 @@
+.room__card{
+    height:14rem;
+    width:20rem;
+    background-color: #363535;
+    margin : 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor : pointer;
+}
+
+.room__card:hover{
+    height:14rem;
+    width:20rem;
+    background-color: #222222;
+    margin : 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor : pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.img1, .img2{
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+    border : 3px solid white;
+    border-radius :50%;
+    display:flex;
+    justify-content : center;
+    align-items : center;
+    overflow : hidden;
+}
+
+.room__card__wrapper {
+    margin-top :10px;
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    position: relative;
+}
+
+
+.img2{
+    position: absolute;
+    top: 38px;
+    left: 21px;
+}
+
+.room__card{
+    position: relative;
+}
+
+.room__card>p:last-child{ 
+    position: absolute;
+    top: 11rem;
+}

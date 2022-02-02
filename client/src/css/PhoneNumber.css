@@ -1,0 +1,27 @@
+.phone__number{
+    background-color: white;
+    color: black;
+    border:none;
+    outline:none;
+    transition: all 0.3 ease-in-out
+}
+
+.phone__div > span{
+    background-color: white;
+    color: black;
+    border:none;
+    outline:none;
+}
+
+.phone__div{
+    border:none;
+    outline:white;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin : 0 5rem;
+}
+
+
+

@@ -1,0 +1,98 @@
+.modal__wrapper{
+    background-color:rgba(0,0,0, 0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__body{
+    background-color: #363535;
+    border-radius: 20px;
+    padding: 2rem 1rem;
+    width: 27rem;
+    position: relative;
+}
+
+.modal__body>div>input{
+    width:100%;
+    background-color:#7f7f7f7d;
+    padding:7px;
+    border-radius:20px;
+    outline: 0;
+    border:none !important;
+    color: white;
+}
+
+.room__type>div>img{
+    height:50px;
+}
+
+.active{
+    cursor: pointer;
+    background-color: rgb(41, 40, 40);
+    padding: 1.3rem 2.3rem;
+    border-radius: 20px;
+    border:2px solid white;
+}
+
+
+
+.notactive{
+    cursor: pointer;
+    background-color: #4240405b;
+    padding: 1.3rem 2.3rem;
+    border-radius: 20px;
+    border:2px solid #6463637d
+}
+
+.image__div:hover{
+    cursor: pointer;
+    background-color: rgb(3, 3, 3);
+    padding: 1.3rem 2.3rem;
+    border-radius: 20px;
+    border:2px solid rgb(255, 255, 255);
+
+}
+
+.close{
+    background-color:transparent;
+    outline:none;
+    border:none;
+    position: absolute;
+    left: 5rem;
+    top: 0rem;
+    padding-left: 20rem;
+}
+
+.topic__input>p{
+    font-size: 12px;
+}
+
+.close>svg{
+    color:white;
+}
+
+
+.room__type>div>p{
+    text-align: center;
+    margin-bottom : 0px;
+}
+
+.room__type{
+    margin-top: 20px;
+    display :flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+button>img{
+    height: 20px;
+}
+
+
+

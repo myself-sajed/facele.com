@@ -1,0 +1,45 @@
+.navbar{
+    border-radius:10px;
+    background-color : #363535;
+    height: 5rem;
+}
+
+nav{
+    color : white
+}
+
+.nav-link , .navbar-brand {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link, .navbar-brand:hover{
+    color: grey;
+}
+
+#navbarNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image__container >div> img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border : 3px solid white;
+    border-radius :50%;
+    display:flex;
+    justify-content : center;
+    align-items : center;
+    overflow: hidden;
+}
+
+.image__container{
+    display: flex;
+    align-items: center;
+    justify-content : center;
+    justify-content: space-around;
+}
+
+

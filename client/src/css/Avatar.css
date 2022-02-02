@@ -1,0 +1,28 @@
+.avatar{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border : 6px solid #0d6efd;
+    border-radius :50%;
+    display:flex;
+    justify-content : center;
+    align-items : center;
+    overflow: hidden;
+}
+
+#avatar__input{
+    display:none;
+}
+
+#lable__input{
+    margin-top: 10px;
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+#lable__input:hover{
+color: #0848a8;
+}
+
+
+
